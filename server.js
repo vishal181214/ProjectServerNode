@@ -6,6 +6,6 @@ const cors = require('cors')
 app.use(cors);
 app.use('/home', data1)
 
-app.listen(process.env.PORT||4000,()=>{
+app.listen(process.env.PORT||8400,()=>{
     console.log("server running");
 })
